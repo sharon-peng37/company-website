@@ -61,3 +61,96 @@ h1 {
     margin: 8px 0;
     color: #666;
 }
+/* 團隊頁面樣式 */
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.team-member {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.member-photo {
+    margin-bottom: 20px;
+}
+
+.photo-placeholder {
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: 3px solid #007bff;
+}
+
+.team-member h3 {
+    color: #333;
+    margin: 15px 0 5px 0;
+    font-size: 1.5em;
+}
+
+.team-member .title {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.team-member .description {
+    color: #666;
+    line-height: 1.6;
+    font-size: 0.95em;
+}
+
+.team-values {
+    background-color: white;
+    padding: 40px;
+    margin: 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.team-values h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.value-item {
+    text-align: center;
+    padding: 20px;
+}
+
+.value-item h4 {
+    color: #007bff;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.value-item p {
+    color: #666;
+    line-height: 1.5;
+}
