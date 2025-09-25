@@ -154,3 +154,64 @@ h1 {
     color: #666;
     line-height: 1.5;
 }
+/* 個人資料頁面樣式 - 開發中 */
+.profile-form {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* TODO: 還要加入更多樣式 */
+/* TODO: 響應式設計 */
+
+/* 緊急修復：聯絡按鈕樣式 */
+.contact-button {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
+/* 在 css/css_style.css 最後加入 */
+.news-container {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.news-item {
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+}
+
+.news-date {
+    color: #666;
+    font-size: 0.9em;
+}
