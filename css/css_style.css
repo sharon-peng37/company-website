@@ -204,6 +204,7 @@ h1 {
 .news-container {
     max-width: 800px;
     margin: 30px auto;
+    padding: 0 20px;
 }
 
 .news-item {
